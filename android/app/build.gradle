@@ -169,7 +169,7 @@ android {
         }
     }
     packagingOptions {
-        pickFirst "src/main/jniLibs/armeabi/libDeviceConfig.so"
+        pickFirst "**/*.so"
     }
 
     // applicationVariants are e.g. debug, release
